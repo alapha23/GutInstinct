@@ -7,8 +7,6 @@ wiringpi.pinMode(PIN,  wiringpi.GPIO.PWM_OUTPUT)
 wiringpi.pwmSetMode(wiringpi.GPIO.PWM_MODE_MS)
 
 #wiringpi.pwmWrite(PIN,)
-
-
 # divide down clock
 wiringpi.pwmSetClock(192)
 wiringpi.pwmSetRange(2000)
