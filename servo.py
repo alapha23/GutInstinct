@@ -1,8 +1,10 @@
 import RPi.GPIO as GPIO
 import time
-servoPIN = 14
-
-def rotate(speed=50, degree=11000):
+servoPIN = 15
+speed = 50
+degree = 11000
+#def rotate(speed=50, degree=11000):
+if True:
     GPIO.setmode(GPIO.BCM)
     GPIO.setup(servoPIN, GPIO.OUT)
 

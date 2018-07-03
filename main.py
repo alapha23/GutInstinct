@@ -3,12 +3,12 @@ import time
 
 # limit of angle is 50 ~ 250
 
-angle = 0
+angle = 50
 servo.rotate(angle)
 time.sleep(1)
-angle = 30
-servo.rotate(angle)
-time.sleep(1)
+#angle = 30
+#servo.rotate(angle)
+#time.sleep(1)
 angle = 60
 servo.rotate(angle)
 time.sleep(1)
@@ -27,6 +27,10 @@ time.sleep(1)
 angle = 210
 servo.rotate(angle)
 time.sleep(1)
+angle = 50
+servo.rotate(angle)
+time.sleep(1)
+
 
 
 
